@@ -20,8 +20,8 @@
 }
 
 .feature {
-    background: rgb(0, 121, 230);
-    background: linear-gradient(0deg, rgba(0, 121, 230, 1) 0%, rgba(0, 250, 255, 1) 90%);
+    background: rgb(40, 156, 75);
+    background: linear-gradient(0deg, rgb(40, 156, 75) 0%, rgba(0, 250, 255, 1) 90%);
 }
 
 .cart a {
@@ -36,7 +36,7 @@
 
 .bg_cart_1 {
     background: #8EC5FC;
-    background-image: linear-gradient(62deg, ##8EC5FC, #E0C3FC, 100%);
+    background-image: linear-gradient(62deg, #8EC5FC, #E0C3FC, 100%);
 }
 
 .list-group-item {
@@ -46,4 +46,15 @@
 .footer {
     border-top: 3px solid #007BFF;
     border-radius: 10px;
+}
+
+.backtop {
+    float: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: green;
+}
+
+.border-top {
+    padding-top: 50px;
 }
