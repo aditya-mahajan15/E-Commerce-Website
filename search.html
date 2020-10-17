@@ -76,39 +76,74 @@
         </div>
     </section>
     <!-- ==============header menu section ends here============== -->
-    <!-- ==============order_confirmation starts here============== -->
-    <section class="order_confirmation py-5 my-5" id="order_confirmation">
-        <div class="container ">
-            <div class="section_title text-center mb-5">
-                <h1 class="text-capitalize">order confirmation</h1>
+
+    <!-- ==============search section ends here============== -->
+    <section class="search_section py-5 my-5" id="search_section">
+        <div class="container">
+            <div class="title text-center mb-5">
+                <h2><i class="far fa-file mr-2"></i>Search</h2>
             </div>
             <div class="row">
-                <div class="col-md-6 mx-auto text-center">
-                    <div>
-                        <i class="fas fa-check-double fa-7x"></i>
+                <!-- BEGIN RESULT -->
+                <div class="col-md-10 mx-auto">
+                    <!-- BEGIN SEARCH INPUT -->
+                    <div class="input-group">
+                        <input type="text" class="form-control" value="xyz">
+                        <span class="input-group-btn">
+    <button class="btn btn-primary" type="button"><i class="fa
+    fa-search"></i></button>
+    </span>
                     </div>
-                    <div>
-                        <h2>Thankyou for your purchase!</h2>
-                        <h6>A confirmation email has been sent to
-                            <b>xyz@gmail.com</b></h6>
-                        <h6><span class="mr-2">Order
-    No:</span><span><b>123123123123</b></span></h6>
-                        <h6>
-                            <span class="mr-2">Order Status:</span>
-                            <span>
-    <b>
-    <span class="badge badge-danger">Pending</span>
-                            </b>
-                            </span>
-                        </h6>
-                        <a href="index.html" class="btn btn-primary btn-lg mt-5">Return to
-    Home</a>
+                    <!-- END SEARCH INPUT -->
+                    <small>Showing all results matching "xyz"</small>
+                    <!-- BEGIN TABLE RESULT -->
+                    <div class="table-responsive mt-3">
+                        <table class="table table-hover">
+                            <tbody class="border-bottom">
+                                <tr>
+                                    <td class="number text-center">1</td>
+                                    <td class="image"><img src="assets/images/product1.png" width="100px" class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>Product 1</strong><br>This is the product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                                <tr>
+                                    <td class="number text-center">2</td>
+                                    <td class="image"><img src="assets/images/product2.png" width="100px" class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>Product 1</strong><br>This is the product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                                <tr>
+                                    <td class="number text-center">3</td>
+                                    <td class="image"><img src="assets/images/product3.png" width="100px" class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>Product 1</strong><br>This is the product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa fa-star"></i><i
+    class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                    <!-- END TABLE RESULT -->
                 </div>
+                <!-- END RESULT -->
             </div>
         </div>
     </section>
-    <!-- ==============order confirmation ends here============== -->
+    <!-- ==============search section ends here============== -->
+
     <!-- ==============footer starts here============== -->
     <hr>
     <section class="footer_section pt-5 pb-2" id="footer_section">
@@ -180,6 +215,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
