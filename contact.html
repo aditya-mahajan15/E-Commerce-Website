@@ -226,3 +226,40 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
+</html>
+
+<script>
+    /* Form Validation*/
+    $(document).ready(function() {
+        $('#form').submit(function(e) {
+            //values
+            var name = $('#name').val().trim();
+            var email = $('#email').val().trim();
+            var msg = $('#msg').val().trim();
+
+            //reset the errors
+            $(".error").remove();
+
+            var isValidForm = true;
+
+            //Validation Conditions
+            if (name.length < 1) {
+                $('#name').after('<span class="error">This field is required</span>');
+                var isValidForm = false;
+            }
+
+            if (email.length < 1) {
+                $('#email').after('<span class="error">This field is required</span>');
+                var isValidForm = false;
+            }
+
+            if (msg.length < 1) {
+                $('#msg').after('<span class="error">This field is required</span>');
+                var isValidForm = false;
+            }
+
+            return isValidForm;
+        });
+    });
+</script>
