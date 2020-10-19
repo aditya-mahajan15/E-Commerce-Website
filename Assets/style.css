@@ -11,6 +11,11 @@
     scroll-behavior: smooth;
 }
 
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 100px;
+}
+
 .bg-light-grey {
     background-color: rgb(241, 240, 240);
 }
